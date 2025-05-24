@@ -7,7 +7,7 @@ name: Rebuild kubetools
 
 on:
   schedule:
-    - cron: "50 * * * *"
+    - cron: "0 * * * *"
   push:
     branches: [ "main" ]
     # Publish semver tags as releases.
