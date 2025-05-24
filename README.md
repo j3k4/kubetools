@@ -5,6 +5,7 @@ Dieses Docker-Image bietet eine umfassende Sammlung von Tools für die Arbeit mi
 ## Enthaltene Tools
 
 ### CLI-Tools
+
 * **kubectl**: Das Standard-Kommandozeilen-Tool für Kubernetes.
 * **helm**: Der Paketmanager für Kubernetes.
 * **cilium CLI**: Kommandozeilen-Tool für die Interaktion mit Cilium.
@@ -22,12 +23,14 @@ Dieses Docker-Image bietet eine umfassende Sammlung von Tools für die Arbeit mi
 * **byobu**: Eine erweiterte und benutzerfreundliche Textfensterverwaltung (basierend auf Tmux oder Screen).
 
 ### Shell-Verbesserungen
+
 * **Zsh**: Eine leistungsstarke Shell.
 * **Oh My Zsh**: Ein Framework zur Verwaltung deiner Zsh-Konfiguration.
 * **Powerlevel10k**: Ein schnelles und anpassbares Theme für Zsh.
 * **Awesome Vimrc**: Eine vorkonfigurierte Vim-Umgebung für eine verbesserte Bearbeitungserfahrung.
 
 ### Kubectl Plugins (via Krew)
+
 * `images`
 * `ktop`
 * `np-viewer`
@@ -68,5 +71,3 @@ podman run -it -v $HOME/.kube:$HOME/.kube:z --rm kubetools
 * `kubetools`: Der Name deines gebauten Images.
 
 Nach dem Start des Containers befindest du dich in einer Zsh-Shell, vorkonfiguriert und bereit für die Arbeit mit deinen Kubernetes-Clustern.
-
----
